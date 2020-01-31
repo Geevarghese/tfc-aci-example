@@ -12,7 +12,7 @@ provider "aci" {
 
 resource "aci_tenant" "terraform_tenant" {
   name        = "tenant_for_terraform"
-  description = "This tenant is created by terraform ACI provider"
+  description = "This tenant is created by terraform ACI providers"
 }
 
 resource "aci_bridge_domain" "bd_for_subnet" {
