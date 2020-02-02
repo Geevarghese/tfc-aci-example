@@ -32,7 +32,4 @@ resource "aci_subnet" "demosubnet" {
   virtual                             = "yes"
 }
 
-variable "hostname" {
-  type        = string
-  description = "hostname of apic"
-}
+variable "hostname" {}
