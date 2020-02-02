@@ -31,3 +31,7 @@ resource "aci_subnet" "demosubnet" {
   preferred                           = "no"
   virtual                             = "yes"
 }
+
+variable "hostname" {
+  type = string
+}
