@@ -33,5 +33,6 @@ resource "aci_subnet" "demosubnet" {
 }
 
 variable "hostname" {
-  type = string
+  type        = string
+  description = "hostname of apic"
 }
