@@ -5,7 +5,7 @@ provider "aci" {
   # cisco-aci password
   password =  "C1sco12345"
   # cisco-aci url
-  url      =  "${var.hostname)}"
+  url      =  "${var.hostname}"
   insecure = true
 }
 
